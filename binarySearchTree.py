@@ -29,14 +29,29 @@ def search(root, key):
         return search(root.right, key)
     
     return search(root.left, key)
-    
 
-r = Node(50)
-r = insert(r, 30)
-r = insert(r, 20)
-r = insert(r, 40)
-r = insert(r, 70)
-r = insert(r, 60)
-r = insert(r, 80)
-inorder(r)
+if __name__ == '__main__':
+  def question3(): 
+     #put question here
+     try:
+       #put test code here
+        r = Node(50)
+        r = insert(r, 30)
+        r = insert(r, 20)
+        r = insert(r, 40)
+        r = insert(r, 70)
+        r = insert(r, 60)
+        r = insert(r, 80)
+        inorder(r)
+     catch Exception as e:
+       print('Question3 test failed with', e)
+
+  def anotherQuestion():
+    # blah
+
+  question3()
+
+  anotherQuestion() 
+
+
 #search(r, 30)
